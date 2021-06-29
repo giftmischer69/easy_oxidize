@@ -1,0 +1,9 @@
+name: {{cookiecutter.project_slug}}
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - rust
+  - pip
+  - pip:
+    - -r requirements.txt
